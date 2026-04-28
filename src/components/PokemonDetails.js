@@ -70,24 +70,9 @@ function PokemonDetails({ pokemon, isOpen, onClose, onFavoriteToggle, isFavorite
                 </div>
               </div>
             )}
-          </div>
+          </div> 
         )}
 
-        {/* <a
-          href={pokemon.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: 'block',
-            marginBottom: '15px',
-            color: '#667eea',
-            textDecoration: 'none',
-            fontWeight: 600,
-            fontSize: '0.9rem'
-          }}
-        >
-          View on PokeAPI →
-        </a> */}
 
         <button
           className="modal-favorite-btn"
