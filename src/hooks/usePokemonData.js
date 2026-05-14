@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 
 const POKEAPI_BASE = 'https://pokeapi.co/api/v2';
 
